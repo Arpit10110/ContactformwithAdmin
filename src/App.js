@@ -1,5 +1,5 @@
 import React from 'react'
-import {BrowserRouter as Router, Routes ,Route} from "react-router-dom"
+import {HashRouter as Router, Routes ,Route} from "react-router-dom"
 import ContactForm from "./Components/ContactForm.jsx"
 import Navbar from "./Components/Navbar.jsx"
 import Admin from "./Components/Admin.jsx"
