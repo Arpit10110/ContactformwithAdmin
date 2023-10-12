@@ -1,0 +1,27 @@
+.nav{
+    display: flex;
+    justify-content: center;
+    height: 21vh;
+    align-items: center;
+    gap: 5rem;
+}
+.nav button {
+    border: 3px solid rgb(255, 0, 255);
+    background-color: rgb(34, 34, 34);
+    height: 6vh;
+    border-radius: 1rem;
+    padding: 0.4rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+.nav button a{
+    color: white;
+}
+.nav button:hover a{
+    color: rgb(255, 0, 0);
+}
+@media only screen and (width<=480px){
+    .nav{
+        gap: 3rem;
+    }
+}

@@ -1,0 +1,58 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: 3px solid rgb(255, 0, 255);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+    top: 2rem;
+    border-radius: 1rem;
+}
+.form input {
+    width: 80%;
+    border: none;
+    height: 4vh;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    font-weight: bold;
+}
+.form button {
+    width: 20%;
+    border: none;
+    font-size: 1.1rem;
+    height: 4vh;
+    cursor: pointer;
+    border-radius: 1rem;
+    font-weight: bold;
+}
+@media only screen and (width<=480px){
+    .form {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        border: 3px solid rgb(255, 0, 255);
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        position: relative;
+        top: 2rem;
+        border-radius: 1rem;
+    }
+    .form button {
+        width: 30%;
+        border: none;
+        font-size: 1rem;
+        height: 4vh;
+        cursor: pointer;
+        border-radius: 1rem;
+        font-weight: bold;
+    }
+}

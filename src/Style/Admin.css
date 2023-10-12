@@ -1,0 +1,44 @@
+.datas{
+    border: 3px solid rgb(255, 0, 0);
+    width: 35%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 2rem;
+    gap: 0.4rem;
+}
+.dataTabel{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.datas h3 {
+    color: rgb(255, 106, 52);
+}
+.datas h3 span{
+    color: skyblue;
+}
+@media only screen and (width<=480px){
+    .datas{
+        border: 3px solid rgb(255, 0, 0);
+        width: 70%;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 2rem;
+        gap: 0.4rem;
+    }
+    .dataTabel{
+        display: flex;
+        flex-direction: row;
+        gap: 2.5rem;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
